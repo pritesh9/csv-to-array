@@ -1,0 +1,25 @@
+{
+  "name": "@pritesh9/csv-to-array",
+  "version": "1.0.0",
+  "description": "A simple library to convert csv data to JavaScript array of objects or json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pritesh9/csv-to-array.git"
+  },
+  "keywords": [
+    "csvtoarray",
+    "csv",
+    "json",
+    "array"
+  ],
+  "author": "Pritesh Patel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pritesh9/csv-to-array/issues"
+  },
+  "homepage": "https://github.com/pritesh9/csv-to-array#readme"
+}
