@@ -1,4 +1,4 @@
-export const csvToArray = (file, maxLevels, objectIdentifier = '.') => {
+export const csvToArray = (file, objectIdentifier = '.') => {
 
 	return new Promise((resolve, reject) => {
 		const reader = new FileReader();
@@ -9,8 +9,6 @@ export const csvToArray = (file, maxLevels, objectIdentifier = '.') => {
 			const lines = evt.target.result.split('\r\n');
 			const titles = lines[0].split(',');
 			const result = [];
-
-			// console.log(lines);
 
 			for (let i = 1; i < lines.length - 1; i++) {
 
